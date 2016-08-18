@@ -14,9 +14,9 @@
 }
 
 - (instancetype)initWithMidichlorianCount:(NSInteger)midichlorianCount
-                                     name:(NSString*)name;
+                                     name:(NSString*)name NS_DESIGNATED_INITIALIZER;
 - (NSInteger)midichlorianCount;
 - (NSString *)name;
-- (void)levitateSomething:(NSString *)something;
+- (void)levitate:(NSString *)something;
 
 @end

@@ -41,7 +41,7 @@
     return _name;
 }
 
-- (void)levitateSomething:(NSString *)something {
-    NSLog(@"*levivates %@*", something);
+- (void)levitate:(NSString *)something {
+    NSLog(@"*levitates %@*", something);
 }
 @end

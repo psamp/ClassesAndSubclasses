@@ -10,6 +10,7 @@
 		74D7851B1D64F3920042D3AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7851A1D64F3920042D3AC /* main.m */; };
 		74D785231D64F4750042D3AC /* ForceUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D785221D64F4750042D3AC /* ForceUser.m */; };
 		74D785261D6551F10042D3AC /* Jedi.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D785251D6551F10042D3AC /* Jedi.m */; };
+		74D785291D655FEB0042D3AC /* Padawan.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D785281D655FEB0042D3AC /* Padawan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		74D785221D64F4750042D3AC /* ForceUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceUser.m; sourceTree = "<group>"; };
 		74D785241D6551F10042D3AC /* Jedi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jedi.h; sourceTree = "<group>"; };
 		74D785251D6551F10042D3AC /* Jedi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jedi.m; sourceTree = "<group>"; };
+		74D785271D655FEB0042D3AC /* Padawan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Padawan.h; sourceTree = "<group>"; };
+		74D785281D655FEB0042D3AC /* Padawan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Padawan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				74D7851A1D64F3920042D3AC /* main.m */,
+				74D785271D655FEB0042D3AC /* Padawan.h */,
+				74D785281D655FEB0042D3AC /* Padawan.m */,
 				74D785241D6551F10042D3AC /* Jedi.h */,
 				74D785251D6551F10042D3AC /* Jedi.m */,
 				74D785211D64F4750042D3AC /* ForceUser.h */,
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D785291D655FEB0042D3AC /* Padawan.m in Sources */,
 				74D785231D64F4750042D3AC /* ForceUser.m in Sources */,
 				74D785261D6551F10042D3AC /* Jedi.m in Sources */,
 				74D7851B1D64F3920042D3AC /* main.m in Sources */,

@@ -34,7 +34,7 @@
 }
 
 - (void)jumpReallyHigh {
-    NSLog(@"*jumps %@ feet in the air", @(arc4random_uniform(100) + 1));
+    NSLog(@"*jumps %@ feet in the air*", @(arc4random_uniform(100) + 1));
 }
 
 - (NSString *)lightsaberColor {

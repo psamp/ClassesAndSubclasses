@@ -15,7 +15,7 @@
 
 - (instancetype)initWithMidichlorianCount:(NSInteger)midichlorianCount
                                      name:(NSString *)name
-                          lightsaberColor:(NSString *)color;
+                          lightsaberColor:(NSString *)color NS_DESIGNATED_INITIALIZER;
 - (void)jumpReallyHigh;
 
 - (NSString *)lightsaberColor;
